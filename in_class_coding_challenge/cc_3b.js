@@ -7,3 +7,8 @@ inventory = [
 
 inventory.forEach(obj => console.log(`${obj.sku}| Name: ${obj.name} | Price: ${obj.price} | Stock: ${obj.stock}`));
 
+new_object = {sku: "SKU-2000", name: "Airpod Max", price: 599, stock: 12},
+inventory2 = inventory.push(new_object)
+console.log(inventory2)
+
+inventory3 = inventory.pop()
